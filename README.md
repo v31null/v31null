@@ -1,3 +1,3 @@
 *Rubeum, lunula oblique sinistrorsum posita argentea inter cornua stella sex radiorum eiusdem metalli oppressa stella quattuor radiorum nigra, radiis verticalibus stellarum coniunctis.*
 
-**G**reetings ,⸿**F**or Tele‑kommunikations kontakt Me as `Kokain#8467` in þe Services for þe General populace Maß Tele-kommunikation services namen as prono , reachable via [Þis link](https://prono.share.zrok.io).⸿« **Q**ui plus fait, miex vault — qui plus haut monte qu’il ne doit, de plus haut chiet qu’il ne vourroit. ».
+**G**reetings ,⸿**F**or Tele‑kommunikations kontakt Me as `Kokain#8467` in þe Services for þe General populace Maß Tele-kommunikation services namen as prono , reachable via : ⸄ [Þis link](https://prono.share.zrok.io) or as an programme [using þͤ ‘ub It‑self](https://github.com/v31null/v31nhub) ⸅ — I replie not to Oþer stuff.⸿« **Q**ui plus fait, miex vault — qui plus haut monte qu’il ne doit, de plus haut chiet qu’il ne vourroit. ».
