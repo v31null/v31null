@@ -1,5 +1,6 @@
+
 Information related to the trusted list of v31null
-19 October 2026
+24 October 2026
 
 Pursuant to ETSI TS 119 612 V2.4.1 (2025-08), the v31null.de admin makes available to the public, through a secure channel to an authenticated web server, the information on the certification authorities operated by v31null, in a signed form suitable for automated processing.
 
@@ -14,7 +15,7 @@ The present publication is also made available at https://github.com/v31null/v31
 1. Initial state at the date of publication of the present document
 At the date of publication of the present document, the following applies:
 
-The v31null TL location is the following URL: https://v31null.de/dss/ts_119612v020401p_5--Trusted_list.xml. The publication is ensured only in a machine-processable form.
+The v31null TL location is the following URL: https://v31null.de/dss/ts_119612v020401p_5--Trusted_list.xml. Pursuant to Article 2(2) of Commission Implementing Decision (EU) 2015/1505, the publication is ensured both in a machine-processable form and in a human-readable form (PDF/A-1b) containing the same data, sealed with the electronic seal of v31null, at https://v31null.de/dss/ts_119612v020401p_5--Trusted_list.pdf.
 
 The authenticity and integrity of the v31null TL are ensured through an electronic signature (XAdES, ETSI EN 319 132-1 V1.3.1) of the v31null.de admin, supported by one of the v31null TL-signing certificates represented in PEM format (‘Privacy-Enhanced Mail’ file format) in Annex 1 to this information, and that can be authenticated using the following digest information:
 
@@ -56,6 +57,32 @@ The validity is 25 years for a root CA, 10 years for a subordinate CA and 2 year
 
 The cryptographic suites follow ETSI TS 119 312 V2.1.1. Signatures are validated according to ETSI EN 319 102-1 V1.4.1 and reported according to ETSI TS 119 102-2 V1.4.1.
 
+The copies of personal data provided to account holders are sealed with the electronic seal of v31null (ETSI EN 319 412-3 V1.4.1). Its certificate is issued by the P-384 subordinate CA. Its subject contains countryName PZ, organizationName Mbrlí úír Entípatùíțù fùțbíz, organizationIdentifier 1 and commonName v31null nkz pik. Its key usage is non-repudiation only (type A), its certificate policy is 0.4.0.2042.1.1 and its validity is 10 years. A sealed copy is valid as information for 14 days from the time of sealing. The certificate is represented in PEM format in Annex 3 to this information, and can be authenticated using the following digest values:
+
+Digest values for the electronic seal certificate (ECDSA P-384, ecdsa-with-SHA384)
+SHA-256 digest (hexadecimal) value: 2d 17 26 08 26 d5 aa ab a0 f9 07 48 8b 9a 43 5a bb fd e2 bc df 42 e8 0a 09 4a 8f 39 0d 90 da 37
+SHA-1 digest (hexadecimal) value: 4e b4 a3 25 a7 15 bf 48 8e 71 29 ce 83 81 d1 93 47 32 01 8a
+SHA-256 digest (Base64) value: LRcmCCbVqqug+QdIi5pDWrv94rzfQugKCUqPOQ2Q2jc=
+SHA-1 digest (Base64) value: TrSjJacVv0iOcSnOg4HRk0cyAYo=
+You can download the publication files from the following links:
+
+Publication files available for download
+Type	Algorithm	File
+Root CA	ML-DSA-87	en_31941101v010501p_3.1--root_CA_ML-DSA-87.cer
+Root CA	RSA-4096	en_31941101v010501p_3.1--root_CA_RSA-4096.cer
+Root CA	P-384	en_31941101v010501p_3.1--root_CA_P-384.cer
+Subordinate CA	ML-DSA-87	en_31941101v010501p_3.1--subordinate_CA_ML-DSA-87.cer
+Subordinate CA	RSA-4096	en_31941101v010501p_3.1--subordinate_CA_RSA-4096.cer
+Subordinate CA	P-384	en_31941101v010501p_3.1--subordinate_CA_P-384.cer
+CA revocation list (CARL)	ML-DSA-87	en_31941101v010501p_3.1--CARL_ML-DSA-87.crl
+CA revocation list (CARL)	RSA-4096	en_31941101v010501p_3.1--CARL_RSA-4096.crl
+CA revocation list (CARL)	P-384	en_31941101v010501p_3.1--CARL_P-384.crl
+Certificate revocation list (CRL)	RSA-4096	en_31941101v010501p_3.1--CRL_RSA-4096.crl
+Certificate revocation list (CRL)	P-384	en_31941101v010501p_3.1--CRL_P-384.crl
+Electronic seal	P-384	en_31941203v010401p_seal_P-384.cer
+Trusted list	XML	ts_119612v020401p_5--Trusted_list.xml
+Trusted list	PDF/A-1b	ts_119612v020401p_5--Trusted_list.pdf
+Terms and conditions	PDF	en_319401v030201p_6.2--Terms_and_Conditions_20261024.pdf
 3. Future change(s) of the v31null TL location or v31null TL-signing certificates
 A future change to the v31null TL location or the v31null TL-signing certificates shall be reflected in a new version of the present publication, at https://v31null.de/dss and at https://github.com/v31null/v31null.
 
@@ -334,4 +361,28 @@ ac5Prk8tf/AynCwVmI+7cH7YxPfsYbd6AV2bO4F7TwzZ4QI2P+a2LZ7FSWg7ozHq
 6v2ioaw+jOIAq/kjXVo1MG74MvUk+PY2i208rVooujn9EiXrk2K+6gFgF686Iuz/
 BQYhRGKdoLXgFTFWrLH8UWWztCAkTE1xeIi31OwGICNRzM73CQ1ajZWv0OQFKUva
 3entDD9ijq2+AAAAAAAAAAAAAAAAAAAAAAAACQ8THSQsMzk=
+-----END CERTIFICATE-----
+ANNEX 3
+PEM representation of the electronic seal certificate of v31null
+
+1. Electronic seal certificate (P-384):
+-----BEGIN CERTIFICATE-----
+MIIDUzCCAtigAwIBAgIQWIfXJditDzEfUDRFlKq/TDAKBggqhkjOPQQDAzBAMQsw
+CQYDVQQGEwJQWjEQMA4GA1UECgwHdjMxbnVsbDEfMB0GA1UEAwwWdjMxbnVsbCBT
+dWJvcmRpbmF0ZSBDQTAeFw0yNjEwMjMyMTIyMDhaFw0zNjEwMTgyMTU5MTNaMGUx
+CzAJBgNVBAYTAlBaMTAwLgYDVQQKDCdNYnJsw60gw7rDrXIgRW50w61wYXTDucOt
+yJvDuSBmw7nIm2LDrXoxCjAIBgNVBGEMATExGDAWBgNVBAMMD3YzMW51bGwgbmt6
+IHBpazB2MBAGByqGSM49AgEGBSuBBAAiA2IABItvte/FjUWLA/HSIfZPGf9wM1IA
+J6J2GR1AXe6sNVn21gCo5/lNxtfz7J9Cv7VscpNDhoDSiaRKXQTJQnguJq6WXQIy
+vEYBd69+tud3NnQs2M0SLm/ioxqFf+CLghVspaOCAXAwggFsMA4GA1UdDwEB/wQE
+AwIGQDATBgNVHSAEDDAKMAgGBgQAj3oBATBwBgNVHSMEaTBngBTSvk7zXfgJywDV
+cKhLvoBEcTs58KE9pDswOTELMAkGA1UEBhMCUFoxEDAOBgNVBAoMB3YzMW51bGwx
+GDAWBgNVBAMMD3YzMW51bGwgUm9vdCBDQYIQUmEO6wrDnVvoac140Zr8WjAdBgNV
+HQ4EFgQUv2o/TWPUWu01TT4PFnGM21sRgSkwTgYDVR0fBEcwRTBDoEGgP4Y9aHR0
+cHM6Ly92MzFudWxsLmRlL2Rzcy9lbl8zMTk0MTEwMXYwMTA1MDFwXzMuMS0tQ1JM
+X1AtMzg0LmNybDBkBggrBgEFBQcBAQRYMFYwVAYIKwYBBQUHMAKGSGh0dHBzOi8v
+djMxbnVsbC5kZS9kc3MvZW5fMzE5NDExMDF2MDEwNTAxcF8zLjEtLXN1Ym9yZGlu
+YXRlX0NBX1AtMzg0LmNlcjAKBggqhkjOPQQDAwNpADBmAjEAl28xRI0kuZbB94Rr
+fDoDW8qBRNissxlUfPDgnXRCFr1Gc7agFrvaeALSh+4Hu3Y4AjEAqi2XYcq/rd1i
+Gh1OOQgC+VBvNyyzHKNChxtbqD7GwTffSJe2C9NKPEjAZskWhubi
 -----END CERTIFICATE-----
