@@ -1,4 +1,7 @@
-
+›
+Legal
+›
+DSS
 Information related to the trusted list of v31null
 24 October 2026
 
@@ -20,15 +23,15 @@ The v31null TL location is the following URL: https://v31null.de/dss/ts_119612v0
 The authenticity and integrity of the v31null TL are ensured through an electronic signature (XAdES, ETSI EN 319 132-1 V1.3.1) of the v31null.de admin, supported by one of the v31null TL-signing certificates represented in PEM format (‘Privacy-Enhanced Mail’ file format) in Annex 1 to this information, and that can be authenticated using the following digest information:
 
 (1) Digest values for the first certificate (P-384)
-SHA-256 digest (hexadecimal) value: e2 9d e6 af cc 44 77 ae 40 0a 9e 03 6a 89 c3 4d e3 69 7d 36 59 a4 bd 6c a4 07 30 c6 07 1a 7e 29
-SHA-1 digest (hexadecimal) value: 78 ec 64 a8 93 46 5f c5 1f c7 1f d5 10 cc 99 f6 ec 0e 0e a1
-SHA-256 digest (Base64) value: 4p3mr8xEd65ACp4DaonDTeNpfTZZpL1spAcwxgcafik=
-SHA-1 digest (Base64) value: eOxkqJNGX8Ufxx/VEMyZ9uwODqE=
+SHA-256 digest (hexadecimal) value: 8f 9c 7b 05 70 39 52 c6 d6 8d 12 c3 be b7 8d a7 11 c4 d3 da b4 cb 51 27 df 40 c7 65 cf fe e0 0d
+SHA-1 digest (hexadecimal) value: 19 19 26 e1 08 51 94 20 37 9a e0 7f d4 33 aa e3 5e 43 24 54
+SHA-256 digest (Base64) value: j5x7BXA5UsbWjRLDvreNpxHE09q0y1En30DHZc/+4A0=
+SHA-1 digest (Base64) value: GRkm4QhRlCA3muB/1DOq415DJFQ=
 (2) Digest values for the second certificate (RSA-4096)
-SHA-256 digest (hexadecimal) value: 37 b4 89 87 86 e7 60 29 6a 19 9e 25 95 e5 a5 87 0a 14 44 dd e5 99 25 40 4b 5d 48 cc 3f 62 7f b1
-SHA-1 digest (hexadecimal) value: d6 fa 6f 28 74 e8 6a e6 80 8c 9f d2 0c 9f 40 43 fa 51 26 7d
-SHA-256 digest (Base64) value: N7SJh4bnYClqGZ4lleWlhwoURN3lmSVAS11IzD9if7E=
-SHA-1 digest (Base64) value: 1vpvKHToauaAjJ/SDJ9AQ/pRJn0=
+SHA-256 digest (hexadecimal) value: b2 00 7e eb e0 76 a9 31 ed 98 1a d1 39 76 a0 8a 53 de f8 29 26 a4 cb 79 c4 10 37 2d 77 db ff 32
+SHA-1 digest (hexadecimal) value: 8a 37 a1 70 ee c2 aa 7b 85 7e 0d 4f 95 63 b4 23 6e 8d 4b 5f
+SHA-256 digest (Base64) value: sgB+6+B2qTHtmBrROXagilPe+CkmpMt5xBA3LXfb/zI=
+SHA-1 digest (Base64) value: ijehcO7CqnuFfg1PlWO0I26NS18=
 The v31null TL lists the following root certification authorities (ETSI EN 319 411-1 V1.5.1, clause 3.1, ‘root CA’), represented in PEM format in Annex 2 to this information, and that can be authenticated using the following digest information:
 
 (1) Digest values for the first root CA certificate (ECDSA P-384, ecdsa-with-SHA384)
@@ -82,7 +85,7 @@ Certificate revocation list (CRL)	P-384	en_31941101v010501p_3.1--CRL_P-384.crl
 Electronic seal	P-384	en_31941203v010401p_seal_P-384.cer
 Trusted list	XML	ts_119612v020401p_5--Trusted_list.xml
 Trusted list	PDF/A-1b	ts_119612v020401p_5--Trusted_list.pdf
-Terms and conditions	PDF	en_319401v030201p_6.2--Terms_and_Conditions_20261024.pdf
+Terms and conditions	PDF	en_319401v030201p_6.2--Terms_and_Conditions_20261025.pdf
 3. Future change(s) of the v31null TL location or v31null TL-signing certificates
 A future change to the v31null TL location or the v31null TL-signing certificates shall be reflected in a new version of the present publication, at https://v31null.de/dss and at https://github.com/v31null/v31null.
 
@@ -91,65 +94,71 @@ PEM representation of v31null TL-signing certificates used for ensuring authenti
 
 1. First certificate (P-384):
 -----BEGIN CERTIFICATE-----
-MIIDUDCCAtagAwIBAgIQXsUxj0oo0EWRoMo5D2GEljAKBggqhkjOPQQDAzBAMQsw
+MIIDzDCCA1GgAwIBAgIQalmmzx+kYQnZRNcOq4+3aDAKBggqhkjOPQQDAzBAMQsw
 CQYDVQQGEwJQWjEQMA4GA1UECgwHdjMxbnVsbDEfMB0GA1UEAwwWdjMxbnVsbCBT
-dWJvcmRpbmF0ZSBDQTAeFw0yNjEwMTgyMjI1MzVaFw0yODEwMTgyMjI1MzVaMGMx
+dWJvcmRpbmF0ZSBDQTAeFw0yNjEwMjQwNDQ4MTRaFw0yODEwMjQwNDQ4MTRaMGMx
 CzAJBgNVBAYTAlBaMREwDwYDVQQEDAhLSU5UVVRBTjEOMAwGA1UEKgwFUFJJTlox
 GDAWBgNVBAUTDzYxOTg1MTA3ODkxMTg3NzEXMBUGA1UEAwwOUFJJTlogS0lOVFVU
-QU4wdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASY6ZXztIFvcoI2GSZLltP1Q9VtbeRg
-GVrbk28ripdai7D/hG7S3N8VnLXHnwqk6wN9WKWS/OotP6rzp8smrkGBPtBBUKOg
-Hcz5SXgQHIGW7qwyZehJmUbd5gMc9ObqQvWjggFwMIIBbDAOBgNVHQ8BAf8EBAMC
-BkAwEwYDVR0gBAwwCjAIBgYEAI96AQEwcAYDVR0jBGkwZ4AU0r5O8134CcsA1XCo
-S76ARHE7OfChPaQ7MDkxCzAJBgNVBAYTAlBaMRAwDgYDVQQKDAd2MzFudWxsMRgw
-FgYDVQQDDA92MzFudWxsIFJvb3QgQ0GCEFJhDusKw51b6GnNeNGa/FowHQYDVR0O
-BBYEFCBXNaM9A4fyMdNm1uTjUJUsmQZvME4GA1UdHwRHMEUwQ6BBoD+GPWh0dHBz
-Oi8vdjMxbnVsbC5kZS9kc3MvZW5fMzE5NDExMDF2MDEwNTAxcF8zLjEtLUNSTF9Q
-LTM4NC5jcmwwZAYIKwYBBQUHAQEEWDBWMFQGCCsGAQUFBzAChkhodHRwczovL3Yz
-MW51bGwuZGUvZHNzL2VuXzMxOTQxMTAxdjAxMDUwMXBfMy4xLS1zdWJvcmRpbmF0
-ZV9DQV9QLTM4NC5jZXIwCgYIKoZIzj0EAwMDaAAwZQIxAJ11A+NkiHBxq5vJhorZ
-y0eELzVMDaG+Trd5UlDT4nDrSU96nmIFdjDdhLYAoEJdVwIwFNLrpEQGCUu6yWIg
-dSdLFZXUC+VGabRtl/yUPLDskCh5YW19YWSmSChpoBwSK7G1
+QU4wdjAQBgcqhkjOPQIBBgUrgQQAIgNiAARQGmW+df6r2m1zBKFo9lySresdxJIA
+wCYaDI9lTEYXngXq3G8HT0WBNjgIQRG8Y6mTHyGY/orZsxSTnSM/SoTnhN9wh0Rl
+cOQl95ZNaxrtqEssA/XfrrbNLeOM8wM6LdyjggHrMIIB5zAMBgNVHRMBAf8EAjAA
+MA4GA1UdDwEB/wQEAwIGQDATBgNVHSAEDDAKMAgGBgQAj3oBATBwBgNVHSMEaTBn
+gBTSvk7zXfgJywDVcKhLvoBEcTs58KE9pDswOTELMAkGA1UEBhMCUFoxEDAOBgNV
+BAoMB3YzMW51bGwxGDAWBgNVBAMMD3YzMW51bGwgUm9vdCBDQYIQUmEO6wrDnVvo
+ac140Zr8WjAdBgNVHQ4EFgQUtzm5a5b0V7aqvnw4OC8XE18ftrMwgY8GA1UdHwSB
+hzCBhDCBgaB/oH2GPWh0dHBzOi8vdjMxbnVsbC5kZS9kc3MvZW5fMzE5NDExMDF2
+MDEwNTAxcF8zLjEtLUNSTF9QLTM4NC5jcmyGPGh0dHA6Ly92MzFudWxsLmRlL2Rz
+cy9lbl8zMTk0MTEwMXYwMTA1MDFwXzMuMS0tQ1JMX1AtMzg0LmNybDCBjgYIKwYB
+BQUHAQEEgYEwfzBUBggrBgEFBQcwAoZIaHR0cHM6Ly92MzFudWxsLmRlL2Rzcy9l
+bl8zMTk0MTEwMXYwMTA1MDFwXzMuMS0tc3Vib3JkaW5hdGVfQ0FfUC0zODQuY2Vy
+MCcGCCsGAQUFBzABhhtodHRwczovL3YzMW51bGwuZGUvZHNzL29jc3AwCgYIKoZI
+zj0EAwMDaQAwZgIxAKnMsNZRsIpGSDsA9dIjj1n1UMsSV6e9v1steJu1HXadU7uv
+jK6oH2ZYju4L5cSxfgIxAL67WT8PX0WaoEAnzNJ8JPBGjmE2V6jqGIcYXO2KKFpK
+WeMfm4IFmR+j2COiYOWteg==
 -----END CERTIFICATE-----
 2. Second certificate (RSA-4096):
 -----BEGIN CERTIFICATE-----
-MIIHDTCCBMGgAwIBAgIQZ8QJsrt0NgDgTECKidKgVTBBBgkqhkiG9w0BAQowNKAP
+MIIHjjCCBUKgAwIBAgIQQSpvyt5epsT/lSrFT6FxdTBBBgkqhkiG9w0BAQowNKAP
 MA0GCWCGSAFlAwQCAwUAoRwwGgYJKoZIhvcNAQEIMA0GCWCGSAFlAwQCAwUAogMC
 AUAwQDELMAkGA1UEBhMCUFoxEDAOBgNVBAoMB3YzMW51bGwxHzAdBgNVBAMMFnYz
-MW51bGwgU3Vib3JkaW5hdGUgQ0EwHhcNMjYxMDE4MjIyNTM2WhcNMjgxMDE4MjIy
-NTM2WjBjMQswCQYDVQQGEwJQWjERMA8GA1UEBAwIS0lOVFVUQU4xDjAMBgNVBCoM
+MW51bGwgU3Vib3JkaW5hdGUgQ0EwHhcNMjYxMDI0MDQ0ODE2WhcNMjgxMDI0MDQ0
+ODE2WjBjMQswCQYDVQQGEwJQWjERMA8GA1UEBAwIS0lOVFVUQU4xDjAMBgNVBCoM
 BVBSSU5aMRgwFgYDVQQFEw82MTk4NTEwNzg5MTE4NzcxFzAVBgNVBAMMDlBSSU5a
-IEtJTlRVVEFOMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxrJ90dBl
-bZfdF6JGnNfT7QH5Eqt8PjPqZmYYMvZK/17/JsHsXcIino/lHSSi5QlOzHlpQ+tz
-uK16e7WQM9Km+/CPmaVfZyqNJyEthbjzKtnz8mba31+hCsrJ2ey8TybfVyI9iCjW
-HmE1hwiq7WWC53jlC+czlitwyjOGbYU7jUmQHQDUtxQatrQMLN4meP1zY9LbHdk6
-SSkhNhBf+tVYIVk5pKu5e+affdI3qziIwMtA+9YKSriPi+qG/auxSyTdB9uiSuXy
-I3XfmgPQpMb3Hry6xFrjrEU+JOtndTtu2a1d0uvl4TiFOodO2Ut3/v6SUVyCa7ki
-9UuRp3WSu8k8nJQ5JbX0t1zFfZivBBe+Nh/hvOG0WqmMgjybKXiQ+X0m7qolxc4Z
-CzS76NI3usp9yFqpQhtoL5B3i2575b9iwXB6zOBN5gqHquDKwx0DK+uHjxRzS8GX
-aAykhyG4DXmBtKhssk5bCM42D7TUDFOFD/1QERI+KKDOHioaXSaOyf+yQwzESWmW
-ZdcjfWK1PTemKoVSmazEYwfQeiQ5hcJyTwK5anEedUt3Xcob/SXN9J/6uz0tYUKC
-v3ceWPjFusWw0y/Uo4lPzSQMTEKRQFPkeEuJYuJX5n27RS4ZzQmaSspcRTcvdh5r
-uhfeET6ElfBnUp9AuHJEb54RaeT/xdhyJaUCAwEAAaOCAXYwggFyMA4GA1UdDwEB
-/wQEAwIGQDATBgNVHSAEDDAKMAgGBgQAj3oBATBwBgNVHSMEaTBngBS7OZ/yBtvu
-h0y7kMV4eTET1db1V6E9pDswOTELMAkGA1UEBhMCUFoxEDAOBgNVBAoMB3YzMW51
-bGwxGDAWBgNVBAMMD3YzMW51bGwgUm9vdCBDQYIQQlPcrsS86HTkVV5f4uKKtDAd
-BgNVHQ4EFgQUWqv9GyWmRuJHsUmPy0CkwfEbXdkwUQYDVR0fBEowSDBGoESgQoZA
-aHR0cHM6Ly92MzFudWxsLmRlL2Rzcy9lbl8zMTk0MTEwMXYwMTA1MDFwXzMuMS0t
-Q1JMX1JTQS00MDk2LmNybDBnBggrBgEFBQcBAQRbMFkwVwYIKwYBBQUHMAKGS2h0
-dHBzOi8vdjMxbnVsbC5kZS9kc3MvZW5fMzE5NDExMDF2MDEwNTAxcF8zLjEtLXN1
-Ym9yZGluYXRlX0NBX1JTQS00MDk2LmNlcjBBBgkqhkiG9w0BAQowNKAPMA0GCWCG
-SAFlAwQCAwUAoRwwGgYJKoZIhvcNAQEIMA0GCWCGSAFlAwQCAwUAogMCAUADggIB
-AFa3rORVEZn1vBzaA05ZmG40Pd9iggGOzimJg+vQuaDA4wBenTPm8/1O4aQAPamI
-YRpEgtutVCef3i5uEZBMaVTz49dvQxU2ncyaQwS09GoF/RMX38Zf26Nk27KjkWEL
-GejdOcBvjTAVH/nOxUP63yTGnSyi+/s24nZKw3LLPHJiVjtGRFHAZVY8a9luY76L
-S7CNwzNWXkruPXlDqiUeoGfWzISBkr/hZDW/h9DAymNdOD9VvrzKbo+uTBZ3BqTC
-wla/42sYakxXz5YuYMp76tuYpWvWt4lVUqoX6KM762bS8U3uwGIkJez2mafoEX6P
-QhqUhqVKAhfd5t8heEAK+K1AEKqRLmWR0hys3yZp8EPVZKqOAmZca+wOLJ3nc0Fv
-WsqxxgOcPaT6x4TritA61DF7mRw14qjZ5A/+YxfKJzB7YAu1teTeDnHBgVOdrum9
-iVQ2AELScxyubrj+kJM4ifP/eJYwy0paz2zTveZC8dyFlT+z4JDXpCg5oEyEYTWH
-z2jc7qjwFBh8YjmT7k/yMgSkC1rBnoNhRdL82rtFu6sBfpqmsVx3Sx76BzDsRRDG
-nJDgE8+aDPLV2lYdo7ewyHej4mCE8hcvcHHwqwG8W2EH6Q2TgvJKEPgSFDnrPFDb
-z7u0IXID1EIIGiOq2CFV4crQtteEzaHla3L2BoieuuT5
+IEtJTlRVVEFOMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArydjWznX
+LvpZ6YuniMXgeaF5ICkbmVvkDqWAdFD6yJIrtud9qJYEXtEJLDitI8cQ9KaPKWi/
+8UzXhhseQE2QOr7ogKpwQcYRwlmtmUeY2I/SxQQeW/nPBpFT1wytxIMjZxTl/ohk
+iSZ+QH71o2alCPHhj1TX34gsrOKmgY0OzDOTH5rNPPQ26fvkOyHO1dTGoOAbCHZL
+GIYWVc0dmIQPn++u/6OyBfQm/nae2lxAv0cYI/2zfNyzuUezG6We74s1yfVZdKMU
+pFT1XeY0rPqflJ2NgoAR20sPIK1l2SSaThLP5ZtYWMMEBO5dq4yRwXem0obA8jss
+o24r6gnCNPqCfVji/ahc5E4DRSnw5wVDV7JkGIywkntm2qXmtHKppzzMZErmqkkK
+glZPqiC2iWrOK+Vj4apklzYlNWPTGsu3FYlhjsAn1QTOYfju0W3PLan+FZUdagn/
+W1XfC3QX1LSOCINJEy2BSqzUx2bvoPx9lCDuI8W+GQjM5DgkFFJGjl1TwefqxFMA
+p9W2Po8Kq0p3iLL7cFzvSP44nvUQ3ZdX3+1yFSzwUmJMjbUw2pmpS+m9jPCXGKXK
+vs/FcnwDK5QcW48zM92IYYJMC76bXjhk18ozP64J0WvRAepRVBVAsMQqEAJvoiT0
+gtxzYNxIiUXCyUX9Q1IdmZfNq74FUFqZVhkCAwEAAaOCAfcwggHzMAwGA1UdEwEB
+/wQCMAAwDgYDVR0PAQH/BAQDAgZAMBMGA1UdIAQMMAowCAYGBACPegEBMHAGA1Ud
+IwRpMGeAFLs5n/IG2+6HTLuQxXh5MRPV1vVXoT2kOzA5MQswCQYDVQQGEwJQWjEQ
+MA4GA1UECgwHdjMxbnVsbDEYMBYGA1UEAwwPdjMxbnVsbCBSb290IENBghBCU9yu
+xLzodORVXl/i4oq0MB0GA1UdDgQWBBQI9jNxkzaHG6chEcWXkux0svapTDCBlwYD
+VR0fBIGPMIGMMIGJoIGGoIGDhkBodHRwczovL3YzMW51bGwuZGUvZHNzL2VuXzMx
+OTQxMTAxdjAxMDUwMXBfMy4xLS1DUkxfUlNBLTQwOTYuY3Jshj9odHRwOi8vdjMx
+bnVsbC5kZS9kc3MvZW5fMzE5NDExMDF2MDEwNTAxcF8zLjEtLUNSTF9SU0EtNDA5
+Ni5jcmwwgZIGCCsGAQUFBwEBBIGFMIGCMFcGCCsGAQUFBzAChktodHRwczovL3Yz
+MW51bGwuZGUvZHNzL2VuXzMxOTQxMTAxdjAxMDUwMXBfMy4xLS1zdWJvcmRpbmF0
+ZV9DQV9SU0EtNDA5Ni5jZXIwJwYIKwYBBQUHMAGGG2h0dHBzOi8vdjMxbnVsbC5k
+ZS9kc3Mvb2NzcDBBBgkqhkiG9w0BAQowNKAPMA0GCWCGSAFlAwQCAwUAoRwwGgYJ
+KoZIhvcNAQEIMA0GCWCGSAFlAwQCAwUAogMCAUADggIBAEIiAsfcq6PmQQFLK4Yj
+Ivs+2rs8nCTHchz9QP7OJik8L+mO1ENdZk6Gd4gadqbtwFrxAOkkeNNQM2YYp8/U
+jdL9Jz3zMZ6PcmnONMNnkocpJdpB4XV1W33bn6EiNl0m1hUMss4wywGJpa/brtn/
+mxmIFv2D3s9T/x3nmcqJqwY0tgr63vY9wYjOeRgdz+SDXMd1t7cL/S7Wr5Ta4JPQ
+AersQp6okTn2LY2pBBFbQfTHHc8j8GpZCz/QjuYHsTy9sJDpxHMvjnmdS+63T90x
+g6G6Ay7NCwPBQXNUl+hjKXKKaIuMr2ESQGppZCdBLyumOvwe85LbP+j4TSaMBAsI
+tlXYVtFMS8WoIoNltqGIffEtNWVhBHM1sNAYeoxa2bf7Z6Vqd1kJ/8oBMLfGh26P
+yZTy2hd+dzkefqVxUICP0JKvVEhyfXdZ39mxADu3Xty27Xx0Cw1aII4Tig9vXP1c
+Ly7EKB+COqD53ok0gdKudWY8KC7/JHM5KdxD3nRWWZpoxmsYUMKWtfklqaR/Fv7S
+ZD3WSUKmEby3G2dwwSB8Bqxg5KfaTPmTSGAbrC0AkQMeM+hJ5qvF8niNaWUhlLdK
+7RQAKDa/oA5pfgQAImCnhSXMNX+1fFtKpg9ARxCsqkwqbGATGTMSJ9KIiz5DUnb0
+nlbtyEaFXB5vNx2o0K0JMmU6
 -----END CERTIFICATE-----
 ANNEX 2
 PEM representation of the root CA certificates listed in the v31null TL
