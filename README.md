@@ -5,3 +5,5 @@
 ![asdsa.jpg](asdsa.jpg)
 
 Aușn̈ín uk bùunstrmíin̈a gùżiíngaín brzč uù baș níh… אִם אֵין הַבַּיִת בָּנוּי עַל־הָאֱלֹהִים…
+
+Kríb țùreas gùtíteh : ⸄ http://clu2nc3t7vnkzw6k6puiyrx6u3v63mnkqtxndbbpa74o3k3f4ot2jpyd.onion/ & http://lbtgmztgmztgmztgmztgmztgmztgmztgmztgmztgmztgmztgmztmn5ad.onion/ ⸅ ! 1‑n línk :‍— bítíș uùtí tor líùba-Síùík 2-n línk uq PȘTÍMÍȚ uùtí tor — żaúsasùgínmíț :‍— brí čur , kríb Bíúatùns kífas níh.
